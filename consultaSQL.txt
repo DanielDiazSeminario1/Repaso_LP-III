@@ -6,3 +6,14 @@ DEFAULT TABLESPACE "USERS"
 DEFAULT TABLESPACE "TEMP"
 
 GRANT ALL PRIVILEGES TO SIGU_DANIEL;
+
+-- creacion de tabla
+
+create table curso (
+	idcurso number primary key,
+	nombre varchar2(50) not ull,
+	estado varchar2(1)
+
+
+
+);
